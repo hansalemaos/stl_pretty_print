@@ -2,6 +2,27 @@
 
 ### ... should work for any (nested) container in the std library
 
+
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_05-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_18-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_35-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_54-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_57_07-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_57_28-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_57_44-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_58_09-Window.png?raw=true)
+
+![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_55_31-Window.png?raw=true)
+
+
 ```cpp
 #include "prettyprint.hpp" //include the library
 
@@ -110,7 +131,7 @@ int main() {
 
 	// To print the data structures 
     // Since I made it for debug purposes, you can pass an optional prefix and suffix
-    
+
 	prettyprinter::print_black(vec1, "\nPrefix: vec1--->\n", "<---vec1");
 	prettyprinter::print_red(vec1, "\nPrefix: vec1--->\n", "<---vec1");
 	prettyprinter::print_green(vec1, "\nPrefix: vec1--->\n", "<---vec1");
@@ -234,22 +255,3 @@ int main() {
 	return 0;
 }
 ```
-
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_05-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_18-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_35-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_54-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_57_07-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_57_28-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_57_44-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_58_09-Window.png?raw=true)
-
-![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_55_31-Window.png?raw=true)

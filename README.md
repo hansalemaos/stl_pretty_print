@@ -7,6 +7,7 @@
 
 ```cpp
 #include "prettyprint.hpp" //include the library
+// Tested with the compilers: g++ (linux), zig (win), msvc (win) / c++20
 
 int main() {
     std::vector<std::vector<int>> nestedVec = { {1, 2, 3}, {4, 5}, {6} };

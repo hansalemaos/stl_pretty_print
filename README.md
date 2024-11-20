@@ -11,6 +11,8 @@
 int main() {
     std::vector<std::vector<int>> nestedVec = { {1, 2, 3}, {4, 5}, {6} };
     prettyprinter::print_red(nestedVec, "Prefix: vec1--->", "Suffix<---vec1"); //prefix and suffix optional
+    prettyprinter::print_green(nestedVec);
+
     return 0;
 }
 // That's all there is to know.

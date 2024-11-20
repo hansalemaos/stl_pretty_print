@@ -6,7 +6,7 @@
 #include "prettyprint.hpp" //include the library
 
 int main() {
-	// I asked ChatGPT to generate some random nested data structures
+	// I asked ChatGPT to generate some random nested data structures to test the code
 
 	// Simple vector of integers
 	std::vector<int> vec1 = { 1, 2, 3, 4, 5 };
@@ -108,7 +108,9 @@ int main() {
 	};
 
 
-	// To print them (prefix and suffix are optional)
+	// To print the data structures 
+    // Since I made it for debug purposes, you can pass an optional prefix and suffix
+    
 	prettyprinter::print_black(vec1, "\nPrefix: vec1--->\n", "<---vec1");
 	prettyprinter::print_red(vec1, "\nPrefix: vec1--->\n", "<---vec1");
 	prettyprinter::print_green(vec1, "\nPrefix: vec1--->\n", "<---vec1");

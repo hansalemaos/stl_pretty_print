@@ -3,6 +3,20 @@
 ### ... should work for any (nested) container in the std library
 
 
+### Getting started
+
+```cpp
+#include "prettyprint.hpp" //include the library
+
+int main() {
+    std::vector<std::vector<int>> nestedVec = { {1, 2, 3}, {4, 5}, {6} };
+    prettyprinter::print_red(nestedVec, "Prefix: vec1--->", "Suffix<---vec1"); //prefix and suffix optional
+    return 0;
+}
+// That's all there is to know.
+// Scroll down to see some more examples
+```
+
 
 ![](https://github.com/hansalemaos/stl_pretty_print/blob/main/screenshots/2024-11-20%2009_56_05-Window.png?raw=true)
 

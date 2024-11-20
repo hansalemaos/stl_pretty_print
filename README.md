@@ -1,5 +1,7 @@
 # Pretty Printer for (deeply) nested STL containers
 
+### ... should work for any (nested) container in the std library
+
 ```cpp
 #include "prettyprint.hpp" //include the library
 

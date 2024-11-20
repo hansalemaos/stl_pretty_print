@@ -6,10 +6,12 @@
 #include <string_view>
 #include <any>
 #include <vector>
+#include <array>
 #include <typeinfo>
 #include <compare>
 #include <initializer_list>
 #include <queue>
+#include <numeric>
 #include <unordered_map>
 #include <map>
 #include <deque>
@@ -28,8 +30,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <iomanip>
+#include <random>
 #include <regex>
+#include <list>
+#include <forward_list>
+
 
 namespace {
 

@@ -1,6 +1,6 @@
-# Pretty Printer for (deeply) nested STL containers
+# Pretty Printer for any (deeply) arbitrarily nested STL container
 
-### ... should work for any (nested) container in the std library
+### ... should work for any (nested) container (unordered map/vector/array/set...) in the std library
 
 
 ### Getting started
